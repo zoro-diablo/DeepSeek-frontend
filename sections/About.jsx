@@ -15,22 +15,19 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About BranCoin " textStyle="text-center"/>
+      <TypingText title="| About DeepSeek " textStyle="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-black'
       >
-        <span className='font-extrabold text-[#3786fe]'>BranCoin </span>
-        is a new cryptocurrency created by 
-        <span className='font-extrabold text-[#3786fe]'> Brandon Ban</span>, 
-        a web3 enthusiast building his skills as a web developer.
-        BranCoin aims to enable a 
-        <span className='font-extrabold text-[#3786fe]'> fairer and more open</span> web3 economy, 
-        empowering individuals with 
-        <span className='font-extrabold text-[#3786fe]'> control </span> 
-        over their digital assets and identities. 
-        Brandon's journey from learner to creator symbolizes the spirit behind BranCoin.
+        DeepSeek is <span className='font-extrabold text-[#3786fe]'>Revolutionary cryptocurrency</span>  inspired by the cutting-edge advancements of the 
+        <span className='font-extrabold text-[#3786fe]'> DeepSeek AI project</span>. Built on the principles of innovation, decentralization, and empowerment, DeepSeek aims to redefine the digital economy by integrating blockchain technology with AI-driven solutions.
+
+        Our mission is to create a 
+        <span className='font-extrabold text-[#3786fe]'> decentralized financial ecosystem</span>, where individuals have 
+        <span className='font-extrabold text-[#3786fe]'> complete control over their assets</span> and access to 
+        <span className='font-extrabold text-[#3786fe]'> next-generation tools powered by AI</span>. DeepSeek symbolizes the fusion of advanced technology and financial freedom, driving a new era of possibilities in the crypto space.
       </motion.p>
 
       <motion.img

@@ -17,7 +17,7 @@ const World = () => (
       <TypingText title="Join the World" textStyles="text-center" />
       <TitleText
         title={<>
-          Start your journey with BranCoin & Enjoy!
+          DeepSeek Movement – Crafting Tomorrow with Proven Intelligence
         </>}
         textStyles={'text-center'}
       />

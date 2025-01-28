@@ -2,48 +2,57 @@ export const exploreWorlds = [
   {
     id: 'pixel-1',
     imgUrl: '/pixel1.gif',
-    title: 'Can be traded using the Ethereum blockchain',
+    title: 'Tradable on the Binance Smart Chain',
   },
   {
     id: 'pixel-2',
     imgUrl: '/pixel2.gif',
-    title: 'Proof-of-stake consensus mechanism',
+    title: 'Proof-of-Stake (PoS) Consensus Mechanism',
   },
   {
     id: 'pixel-3',
     imgUrl: '/pixel3.gif',
-    title: 'Fixed supply of 21 million coins',
+    title: 'Limited Supply of 21 Million Coins',
   },
   {
     id: 'pixel-4',
     imgUrl: '/pixel4.gif',
-    title: 'Fast transaction speeds',
+    title: 'Blazing-Fast Transactions',
   },
   {
     id: 'pixel-5',
     imgUrl: '/pixel5.gif',
-    title: 'Very low transaction fees',
+    title: 'Exceptionally Low Fees',
   },
 ];
 
 export const startingFeatures = [
-  'Decide an amount that suits you and you want to trade or buy',
-  'Enter the Opac1ty platform and register your account using metamask',
-  'Insert the address of the wallet you want to trade or buy with',
+  {
+    heading: 'Choose Your Amount',
+    description: 'Decide how much DeepSeek Coin you want to trade or buy.',
+  },
+  {
+    heading: 'Set Up Your Wallet',
+    description: 'Use MetaMask or another Ethereum-compatible wallet to manage your coins.',
+  },
+  {
+    heading: 'Start Trading',
+    description: 'Enter the supported trading platform, complete your purchase, and transfer coins to your wallet.',
+  },
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/phone.png',
-    title: 'The dApp',
+    title: 'AI-Powered dApp with DeepSeek-R1',
     subtitle:
-        'Our initial dApp will allow users to purchase virtual land and items within a gamified metaverse world. All purchases and transactions within the dApp will be made using BranCoin',
+        'Our upcoming decentralized application (dApp) will leverage the power of DeepSeek-R1, a cutting-edge AI model, to provide users with advanced features. This includes intelligent trading insights, personalized recommendations, and a gamified ecosystem where virtual assets can be purchased and traded seamlessly. All transactions will be powered exclusively by DeepSeek Coin.',
   },
   {
     imgUrl: '/angel.png',
-    title: 'NFT Collection',
+    title: 'Exclusive NFT Collection Powered by DeepSeek-V3',
     subtitle:
-        'We will soon launch an inaugural NFT collection to ignite its virtual economy and link the coin to unique digital assets.',
+        'DeepSeek is introducing an inaugural NFT collection designed using the DeepSeek-V3 model. These AI-generated NFTs will serve as unique digital assets and offer exclusive utilities within the DeepSeek ecosystem, such as access to premium features, virtual land, and gamified rewards, creating a vibrant virtual economy.',
   },
 ];
 

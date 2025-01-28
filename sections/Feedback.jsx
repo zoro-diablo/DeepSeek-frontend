@@ -46,7 +46,7 @@ const Feedback = () => (
           className='lg:block hidden absolute -left-[10%] top-[3%]'
         >
           <img 
-            src='/bcstamp.png'
+            src='/bnb.png'
             alt='bcstamp'
             className='w-[155px] h-[155px] object-contain'
           />

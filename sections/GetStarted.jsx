@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { StartSteps, TitleText, TypingText } from '../components';
-import { startingFeatures } from '../constants'
+import { startingFeatures } from '../constants';
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -19,25 +19,26 @@ const GetStarted = () => (
         variants={planetVariants('left')}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img 
-          src="/robot.png"
-          alt='robot'
-          className='w-[75%] h-[75%] object-contain'
+        <img
+          src="/deepseek-trans.png"
+          alt="robot"
+          className="w-[65%] h-[65%] object-contain"
         />
       </motion.div>
 
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}
-        className='flex-[0.75] flex justify-center flex-col'
+        className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| How To Trade?" />
+        <TypingText title="| How to Trade DeepSeek Coin?" />
         <TitleText title={<>Get Started with just a few clicks</>} />
-        <div className='mt-[31px] flex flex-col max-w-[370px] gap-[24px]'>
+        <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
-            <StartSteps 
-              key={feature}
+            <StartSteps
+              key={feature.heading}
               number={index + 1}
-              text={feature}
+              heading={feature.heading}
+              description={feature.description}
             />
           ))}
         </div>
