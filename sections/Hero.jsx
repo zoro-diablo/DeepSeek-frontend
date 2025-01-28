@@ -32,7 +32,7 @@ const Hero = () => (
       >
         <div className='absolute w-full h-[300px] rounded-tl-[140px] z-[0] -top-[30px]' />
           <img 
-            src="/background.gif"
+            src="/background-4.gif"
             alt="cover"
             className='w-full sm:h-[500px] h-[350px]  rounded-tl-[140px] z-1 relative'
           />
