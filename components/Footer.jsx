@@ -34,11 +34,11 @@ const Footer = () => (
         <div className='flex items-center justify-between flex-wrap gap-4'>
           <a href='https://brancoin-crypto.vercel.app'>
             <h4 className='font-extrabold text-[24px] text-[#3786fe]'>
-              BranCoin
+              DeepSeek
             </h4>
           </a>
           <p className='font-normal text-[14px] text-[#64748b] opacity-50'>
-            Copyright © 2023 BranCoin. All rights reserved.
+            Copyright © 2025 DeepSeek. All rights reserved.
           </p>
           <div className='flex gap-4'>
             {socials.map((social, index) => (

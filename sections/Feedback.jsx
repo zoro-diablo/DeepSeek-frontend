@@ -18,16 +18,9 @@ const Feedback = () => (
         className='flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#3786fe] relative'
       >
         <div className='feedback-gradient'/>
-        <div>
-          <h4 className='font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-[#3786fe]'>
-            Brandon Ban
-          </h4>
-          <p className='mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-[#64748b]'>
-            BranCoin | Founder & Developer
-          </p>
-        </div>
-        <p className='mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-[#64748b]'>
-          “With BranCoin, you can transform the way value is created and exchanged on the internet. The distributed, decentralized nature of cryptocurrency gives the power back to the people - where it belongs.”
+      
+        <p className='mt-[24px] font-normal sm:text-[20px] text-[16px] sm:leading-[40px] leading-[39px] text-[#64748b]'>
+          “With DeepSeek, we are reshaping the way value is created, shared, and exchanged in the digital world. By combining the power of AI and blockchain, we’re building a decentralized future where financial freedom and innovation belong to everyone—putting the control back where it truly belongs: in the hands of the people”
         </p>
       </motion.div>
 
@@ -36,7 +29,7 @@ const Feedback = () => (
         className='relative flex-1 flex justify-center items-center'
       >
         <img 
-          src='/starwars.gif'
+          src='/background-2.gif'
           alt='background-image'
           className='w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]'
         />
